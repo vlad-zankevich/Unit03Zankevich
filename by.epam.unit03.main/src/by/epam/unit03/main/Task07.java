@@ -1,4 +1,6 @@
-public class Task05 {
+package by.epam.unit03.main;
+
+public class Task07 {
     public static void main(String[] args) {
 
     }

@@ -10,7 +10,7 @@ public class Task04 {
 
         while(x <= 5) {
             y = 5 - (Math.pow(x, 2)) / 2;
-            System.out.printf("|\t%4.1f\t|\t%4.1f\t|\n", x, y);
+            System.out.printf("|\t%4.1f\t|\t%4.3f\t|\n", x, y);
             x = x + 0.5;
         }
         System.out.println("-------------------------");

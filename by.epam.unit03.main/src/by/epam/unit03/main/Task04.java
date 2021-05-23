@@ -2,6 +2,8 @@ package by.epam.unit03.main;
 
 public class Task04 {
     public static void main(String[] args) {
+        //Make a table of the values of the y = 5 - x2/2 function on the segment [-5, 5] in increments of 0.5
+
         double x = -5;
         double y;
         System.out.println("-------------------------");

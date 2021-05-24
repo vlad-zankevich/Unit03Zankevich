@@ -7,7 +7,7 @@ public class Task08 {
 
         int x = 4;
         int y = 7;
-        String a;
+        String str;
         double result = 0;
         boolean continueProgram = true;
 
@@ -20,9 +20,11 @@ public class Task08 {
 
             System.out.println("Enter the operand - what do you want to do with X and Y: +, -, /, *, and press Enter\n" +
                 "If you want to stop the program, then enter '#' and press Enter\n>");
-            a = sc.nextLine();
 
-            switch (a) {
+            sc = new Scanner(System.in);
+            str = sc.nextLine();
+
+            switch (str) {
                 case "+" -> result = x + y;
                 case "-" -> result = x - y;
                 case "/" -> result = (double) x / y;
@@ -31,6 +33,7 @@ public class Task08 {
                 default -> System.out.println("Please enter correct operand: +, -, /, *, or enter # to stop the program");
             }
             System.out.println("The result Z is " + result);
+            System.out.println();
         }
     }
 }
